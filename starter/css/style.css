@@ -1,0 +1,432 @@
+:root {
+    --text: #DCCAE9;
+    --softpurple: #A6A9C8;
+    --text2: #D3D9E9;
+    --dark: #31293F;
+    --middletone: #554D74;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #272932;
+    font-size: 16px;
+    display: flex;
+    flex-direction:column;
+    min-height: 50vh;
+  }
+  /*Header*/
+
+  .logo {
+   width: 150px;
+   float: left;
+   padding-left: 5%;
+   padding-top: 2%;
+   margin-bottom: 30px;
+ }
+
+ h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #DCCAE9;
+    border-bottom: 2px solid var(--middletone);
+    text-align: center;
+  width: 300px;
+  margin: 20px auto;
+ }
+  
+ /*Navbar*/
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A6A9C8;
+  }
+  
+  nav a {
+    color: var(--dark);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: var(--text);
+  }
+
+  a:hover, a:active {
+    background-color: var(--text);
+  }
+  
+  /*Banner Image */
+  #heroGrid {
+    margin-top: 100%;
+    margin: 0px 5%;
+    display: grid;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    min-height: 300px;
+    height: 50vh;
+    background-image: url(../images/Banner.png)
+  }
+  
+  
+  #headline {
+    background-color: var(--text2);
+    border-radius: 50px;
+    border-bottom: 5px solid var(--dark);
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    left: 500px;
+    margin-top: 20px;
+  }
+  
+  #hello {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--dark);
+    margin-bottom: 30px;
+    
+  }
+  
+  
+  #middletext {
+    font-size: 24px;
+    color: #554D74;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--dark);
+    
+  }
+  h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--middletone);
+  }
+  
+  .heroGridArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*about me */
+  .about {
+    padding: 10px;
+      height: 100px;
+      margin-top: 30%;
+      font-family: 'Times New Roman', Times, serif;
+      color:var(--text2);
+      font-size: 20;
+  
+  }
+
+  .aboutme {
+    color: var(--text);
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--text);
+    text-align: center;
+  width: 300px;
+  margin: 20px auto;
+  }
+
+  .heart {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 5px;
+
+  }
+
+  .text {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#A6A9C8;
+    color:var(--dark);
+    font-size: 20;
+  }
+
+/* Projects*/
+  .pro {
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--text);
+    text-align: center;
+  width: 300px;
+  margin: 50px auto;
+    margin-top: 20%;
+ }
+
+  .info {
+    color: var(--text2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  #categoryGrid {
+    margin: 0px 5%;
+    border: 2px solid #DCCAE9;
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "design front"
+    "design ux"
+    ;
+  }
+  
+  #design {
+    grid-area: design;
+    background-image: url("../images/graphics.png");
+    width: 800px;
+    border: 2px solid #DCCAE9;
+    border-radius: 50px;
+  
+  }
+  #front {
+    grid-area: front;
+    background-image: url("../images/front.jpg");
+    border: 2px solid #DCCAE9;
+    border-radius: 50px;
+  }
+  
+  #ux {
+    grid-area: ux;
+    background-image: url("../images/ux\ design.png");
+    border: 2px solid #DCCAE9;
+    border-radius: 50px;
+  }
+
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+
+  .subheading {
+    background-color: var(--text2);
+    padding: 25px;
+    height: 30px;
+    color: var(--text);
+    font-size: 18px;
+    border-bottom: 5px solid var(--middletone);
+    border-radius:  50px;
+  }
+
+
+/* Contact me */
+
+  .contactme {
+    font-size: 24px;
+    color: var(--text2);
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  margin: 50px auto;
+  }
+
+.contact {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  bottom: 0;
+  padding: 15px;
+  text-align: center;
+  background: var(--dark);
+  color: var(--text);
+  margin-top: 1%;
+  border: 2px solid var(--middletone);
+  border-radius: 50px;
+   
+}
+
+
+/* Breakpoints */
+
+
+/* tablets */
+
+@media screen and (max-width:768px) {
+
+ #logo {
+  width: 100px;
+ }
+
+ h1{
+  font-size: 25px;
+ }
+ 
+
+  #headline {
+  width: 40%;
+  height: 35%;
+  padding:5px;
+  margin-top: 55px;
+  text-align: center;
+  left:30%;
+
+  }
+
+#hello {
+  font-size: 20px;
+}
+#middletext {
+  font-size: 16px;
+}
+
+.aboutme {
+  font-size: 30px;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.heart {
+  font-size: 16px;
+}
+
+.text {
+  height: 100px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.pro {
+  font-size: 30px;
+  margin-top: 65%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 16px;
+  text-align: center;
+}
+
+#categoryGrid {
+  width: 90%;
+}
+
+
+#design {
+width: 100%;
+}
+#front {
+  width: 95%;
+  margin-left: 10px;
+}
+#ux {
+  width: 95%;
+  margin-left: 10px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+/* phones */
+
+@media  screen and (max-width: 600px) {
+ 
+  #headline {
+    width: 45%;
+  height: 37%;
+  padding:5px;
+  margin-top: 45px;
+  text-align: center;
+  left: 30%;
+  position: absolute;
+  }
+ #logo {
+  width: 80px;
+ }
+ 
+ h1 {
+  font-size: 23px;
+ }
+
+ #aboutme {
+  font-size: 24px;
+  margin-top: 75%;
+  text-align: center;
+}
+.heart {
+  margin-top: -4%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.text {
+font-size:13px;
+}
+
+.pro {
+  margin-top: 130%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.info {
+  margin-top: -4%;
+  font-size: 15px;
+  text-align: center;
+}
+
+#categoryGrid {
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas: 
+  "design"
+  "front"
+  "ux";
+}
+#design {
+  grid-area: design;
+}
+#front {
+  grid-area: front;
+}
+#ux {
+  grid-area: ux;
+}
+
+.contactme {
+  font-size: 24px;
+}
+
+.contact {
+  font-size: 15px;
+  text-align: center;
+  margin-top: -5px;
+  margin: 10px;
+}
+}
+  
