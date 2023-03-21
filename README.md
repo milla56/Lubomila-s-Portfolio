@@ -16,7 +16,7 @@
 
 ## Installation
 
-This site was built using [GitHub Pages](https://milla56.github.io/Lubomila-s-Portfolio/) 
+Follow the link for the final version of the website [Portfolio](https://milla56.github.io/Lubomila-s-Portfolio/) 
 
 ## Usage
 
