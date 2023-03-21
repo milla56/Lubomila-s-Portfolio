@@ -47,6 +47,10 @@ The list shows what changes were made to improve the website:
    Please,follow the gif for more information:
    ![743 px demo](./screenshots/743px.gif)
    The screen size in this demo is 743px.
+   3. I used media query with min-width:300px and max-width:480px , in order to target small devices (phones ).
+   Please,follow the gif for more information:
+   ![359 px demo](./screenshots/359px.gif)
+   The screen size in this demo is 743px.
 
 
 

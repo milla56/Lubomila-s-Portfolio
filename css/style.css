@@ -429,4 +429,51 @@ font-size:13px;
   margin: 10px;
 }
 }
-  
+
+/* phones1 */
+@media (min-width:300px)and (max-width:480px) {
+
+
+#headline {
+    width: 55%;
+  height: 40%;
+  padding:5px;
+  margin-top: 45px;
+  text-align: center;
+  left: 30%;
+  position: absolute;
+  }
+
+  #aboutme {
+    font-size: 30px;
+    margin-top: 90%;
+    text-align: center;
+  }
+
+  .heart {
+    font-size: 12px;
+  }
+
+  .pro {
+    margin-top: 150%;
+  }
+  .info {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #categoryGrid {
+    display: grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas: 
+    "design"
+    "front"
+    "ux";
+  }
+  .subheading {
+    font-size: 15px;
+  }
+ 
+}
