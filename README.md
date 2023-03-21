@@ -3,9 +3,9 @@
 ## Table of Contents 
 
 - [Description](#description)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
 
@@ -16,7 +16,7 @@
 
 ## Installation
 
-N/A
+This site was built using [GitHub Pages](https://milla56.github.io/Lubomila-s-Portfolio/) 
 
 ## Usage
 
@@ -64,9 +64,6 @@ The list shows what changes were made to improve the website:
 - CSS variables
 
 
-## Installation
-
-N/A
 
 ## Credits
 
